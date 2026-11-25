@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wolfboards — Custom patch cables, pedalboard cleanup & rebuilds</title>
+<meta name="description" content="Custom Mogami patch cables cut to each run, pedalboard cleanup and troubleshooting, and full rebuilds by Marvin Garcia. Drop off or ship your board. Message @wolfboards on Instagram.">
+<meta property="og:title" content="Wolfboards — Every cable cut to its run">
+<meta property="og:description" content="Custom patch cables, cleanup and troubleshooting, and full pedalboard rebuilds.">
+<meta property="og:image" content="og.jpg">
+<meta name="theme-color" content="#110f0d">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;800&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="img/g-07-side.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="img/m-07-side.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="Wolfboards, back to top">
+    <img src="img/mark.png" alt="" width="36" height="36">
+    <span>wolfboards</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#explore">Services</a>
+    <a href="#request">Book in</a>
+    <a href="#cables">Patch cables</a>
+  </nav>
+  <a class="btn btn-sm" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener" aria-label="Message Wolfboards on Instagram">Message<span class="hide-sm">&nbsp;on Instagram</span></a>
+</header>
+
+<!-- Viewport edges: content dissolves (progressive blur + darken) under the header and at the bottom of the screen -->
+<div class="edge edge-top" aria-hidden="true"></div>
+<div class="edge edge-bottom" aria-hidden="true"></div>
+
+<main id="main">
+
+<!-- FLAGSHIP: "Cut to the run". One scroll progress drives frame, scale, caption and rail (app.js). -->
+<section class="film" id="top" aria-label="How Wolfboards cables a board">
+  <div class="film-stage">
+    <nav class="rail" aria-label="Tour steps">
+      <span class="jack" aria-hidden="true">IN</span>
+      <button type="button" aria-label="Step 1: Every cable cut to its run" aria-current="step"></button>
+      <button type="button" aria-label="Step 2: Cut to the run"></button>
+      <button type="button" aria-label="Step 3: Routed under the deck"></button>
+      <button type="button" aria-label="Step 4: Every connection checked"></button>
+      <button type="button" aria-label="Step 5: Back to the whole board"></button>
+      <span class="jack" aria-hidden="true">OUT</span>
+    </nav>
+
+    <!-- Bench light: its own layer behind the frame, unclipped and far larger than it, so the light has no edge -->
+    <div class="glow" aria-hidden="true"></div>
+    <div class="frames" aria-hidden="true">
+      <!-- Higgsfield slots: media/film-cables.mp4 (beat 2), media/film-under.mp4 (beat 3), media/film-jacks.mp4 (beat 4) -->
+      <!-- Layered shot (back to front): brand word, subject cut out by its mask. No opaque plate, so no box. -->
+      <div class="shot on" data-frame="side">
+        <span class="backword">wolfboards</span>
+        <img class="subject" src="img/g-07-side.jpg" alt="" width="676" height="1200" fetchpriority="high">
+      </div>
+      <div class="shot" data-frame="under"><img class="plate" src="img/g-08-under.jpg" alt="" width="675" height="1200"></div>
+      <div class="shot" data-frame="low"><img class="subject" src="img/g-06-low.jpg" alt="" width="675" height="1200"></div>
+    </div>
+
+    <div class="beats">
+      <article data-beat="0" class="beat beat-hero">
+        <h1>Every cable cut to its run.</h1>
+        <p class="lede">Patch cables made to length, re-cabling, cleanup and troubleshooting, and full pedalboard rebuilds by Marvin Garcia. Drop your board off or ship it in.</p>
+        <div class="actions">
+          <a class="btn" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener">Message on Instagram</a>
+          <a class="link" href="#explore">Find your service</a>
+        </div>
+        <ul class="jumps" aria-label="Services">
+          <li><a href="#explore" data-pick="mess">Re-cable</a></li>
+          <li><a href="#explore" data-pick="noise">Cleanup & troubleshooting</a></li>
+          <li><a href="#explore" data-pick="layout">Full rebuild</a></li>
+          <li><a href="#cables">Patch cables</a></li>
+        </ul>
+        <img class="still" src="img/g-07-side.jpg" alt="Marvin's board: Strymon Timeline and Big Sky on the top row, compressor and drive below, every cable routed tight." width="676" height="1200">
+      </article>
+      <article data-beat="1" class="beat">
+        <h2>Cut to the run</h2>
+        <p>Each patch cable is measured on your board and built to that exact length with Mogami cable. Nothing loops, pulls or sits loose.</p>
+        <img class="still" src="img/g-07-side.jpg" alt="Short patch cables arcing tightly between the Timeline and Big Sky." width="676" height="1200" loading="lazy" decoding="async">
+      </article>
+      <article data-beat="2" class="beat">
+        <h2>Routed under the deck</h2>
+        <p>Runs are tied down beneath the board, out from under your feet and easy to follow when something goes wrong.</p>
+        <img class="still" src="img/g-08-under.jpg" alt="Cables tied in straight runs beneath a pedalboard deck." width="675" height="1200" loading="lazy" decoding="async">
+      </article>
+      <article data-beat="3" class="beat">
+        <h2>Every connection checked</h2>
+        <p>Hum, crackle and dropouts are traced to the cause, whether a worn cable, a loose jack or a bad power run, and the failing part is replaced.</p>
+        <img class="still" src="img/g-06-low.jpg" alt="Low angle across pedals and their jacks, cables seated and coiled tight." width="675" height="1200" loading="lazy" decoding="async">
+      </article>
+      <article data-beat="4" class="beat">
+        <h2>Back to the whole board</h2>
+        <p>A board that looks clean, is easy to troubleshoot, and works every time you step on stage.</p>
+        <p class="signoff">Wolfboards · Lead the pack.</p>
+        <div class="actions">
+          <a class="btn" href="#explore">Find your service</a>
+          <a class="link" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener">Message on Instagram</a>
+        </div>
+      </article>
+    </div>
+    <a class="skip-tour" href="#explore">Skip to services <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<!-- EXPLORER: state lives in the radios; CSS :has() renders photo, panel and comparison together -->
+<section class="explore" id="explore" aria-labelledby="explore-h">
+  <form class="wrap" id="symptoms" onsubmit="return false">
+    <h2 data-reveal="wipe" id="explore-h">What's frustrating about your board?</h2>
+    <p class="muted intro">Pick what's going on. You'll see the service that fixes it, what's included and what to bring.</p>
+
+    <fieldset class="options" data-reveal="stagger">
+      <legend class="sr-only">What's going on with your board</legend>
+      <input type="radio" name="symptom" id="s-noise" value="noise"><label for="s-noise">Hum, buzz or noise</label>
+      <input type="radio" name="symptom" id="s-dropout" value="dropout"><label for="s-dropout">Signal cuts out or crackles</label>
+      <input type="radio" name="symptom" id="s-mess" value="mess"><label for="s-mess">Messy, too-long cables</label>
+      <input type="radio" name="symptom" id="s-layout" value="layout"><label for="s-layout">New pedals or a new layout</label>
+    </fieldset>
+
+    <div class="stage">
+      <figure class="view" aria-hidden="true">
+        <img data-for="none" src="img/g-07-side.jpg" alt="" width="676" height="1200" loading="lazy" decoding="async">
+        <img data-for="noise" src="img/g-08-under.jpg" alt="" width="675" height="1200" loading="lazy" decoding="async">
+        <img data-for="dropout" src="img/g-07-side.jpg" alt="" width="676" height="1200" loading="lazy" decoding="async">
+        <img data-for="mess" src="img/g-06-low.jpg" alt="" width="675" height="1200" loading="lazy" decoding="async">
+        <img data-for="layout" src="img/g-07-side.jpg" alt="" width="676" height="1200" loading="lazy" decoding="async">
+      </figure>
+
+      <div class="panels" aria-live="polite">
+        <div class="panel" data-panel="none">
+          <h3>Pick what's happening</h3>
+          <p>Not sure which it is? <a href="https://ig.me/m/wolfboards" target="_blank" rel="noopener">Send a message</a> describing what the board is doing.</p>
+        </div>
+        <div class="panel" data-panel="noise">
+          <h3>Cleanup & troubleshooting</h3>
+          <p>Noise usually comes from power, cable quality or routing. The board is traced end to end, the cause fixed, and the wiring tidied so it stays quiet.</p>
+          <p class="bring"><b>Bring</b> the full board, its power supply and every cable on it.</p>
+          <a class="btn" href="#request" data-service="Cleanup & troubleshooting">Book cleanup & troubleshooting</a>
+        </div>
+        <div class="panel" data-panel="dropout">
+          <h3>Cleanup & troubleshooting</h3>
+          <p>Crackles and dropouts usually mean a worn cable, a loose jack or a connection under strain. Every connection is checked and the failing part replaced.</p>
+          <p class="bring"><b>Bring</b> the full board, its power supply and every cable on it.</p>
+          <a class="btn" href="#request" data-service="Cleanup & troubleshooting">Book cleanup & troubleshooting</a>
+        </div>
+        <div class="panel" data-panel="mess">
+          <h3>Re-cable</h3>
+          <p>Every cable on the board is replaced with one made to the length of its run, using Mogami cable, then installed and tied down. No slack coiled under the board, nothing pulling on a jack.</p>
+          <p class="bring"><b>Bring</b> the board with the pedals mounted where you want them.</p>
+          <a class="btn" href="#request" data-service="Re-cable">Book a re-cable</a>
+          <p class="aside">Only need the cables? <a href="#cables">Order patch cables</a>.</p>
+        </div>
+        <div class="panel" data-panel="layout">
+          <h3>Full rebuild</h3>
+          <p>For a new pedal, a new signal order or a board that has outgrown its layout. The layout is planned with you, then everything goes back with new cabling.</p>
+          <p class="bring"><b>Bring</b> the board, the pedals you want on it and the power supply.</p>
+          <a class="btn" href="#request" data-service="Full rebuild">Book a full rebuild</a>
+        </div>
+        <button type="reset" class="link reset">Clear selection</button>
+      </div>
+    </div>
+
+    <div class="compare-wrap" data-reveal="stagger">
+      <table class="compare">
+        <caption>What each service covers</caption>
+        <thead>
+          <tr><td></td><th scope="col" data-col="cables">Re-cable</th><th scope="col" data-col="clean">Cleanup & troubleshooting</th><th scope="col" data-col="rebuild">Full rebuild</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Cables built to the length of each run</th><td data-col="cables" class="y">Included</td><td data-col="clean">Failing cables only</td><td data-col="rebuild" class="y">Included</td></tr>
+          <tr><th scope="row">Runs routed and tied down</th><td data-col="cables" class="y">Included</td><td data-col="clean" class="y">Included</td><td data-col="rebuild" class="y">Included</td></tr>
+          <tr><th scope="row">Noise and dropouts traced to the cause</th><td data-col="cables" class="n">—</td><td data-col="clean" class="y">Included</td><td data-col="rebuild" class="y">Included</td></tr>
+          <tr><th scope="row">Layout and signal order planned with you</th><td data-col="cables" class="n">—</td><td data-col="clean" class="n">—</td><td data-col="rebuild" class="y">Included</td></tr>
+          <tr><th scope="row">Pedals remounted</th><td data-col="cables" class="n">—</td><td data-col="clean" class="n">—</td><td data-col="rebuild" class="y">Included</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td></td>
+            <td data-col="cables"><a class="btn btn-line btn-sm" href="#request" data-service="Re-cable">Book</a></td>
+            <td data-col="clean"><a class="btn btn-line btn-sm" href="#request" data-service="Cleanup & troubleshooting">Book</a></td>
+            <td data-col="rebuild"><a class="btn btn-line btn-sm" href="#request" data-service="Full rebuild">Book</a></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </form>
+</section>
+
+<div class="patch" aria-hidden="true"><span class="jack">OUT</span><span class="cord"></span><img class="patch-mark" src="img/mark.png" alt="" width="44" height="44" loading="lazy" decoding="async"><span class="cord"></span><span class="jack">IN</span></div>
+
+<!-- REQUEST -->
+<section class="wrap request" id="request" aria-labelledby="request-h">
+  <div class="request-intro">
+    <h2 data-reveal="wipe" id="request-h">Book your board in</h2>
+    <ol class="next" data-reveal="stagger">
+      <li><b>Send the message.</b> This form writes it and copies it. Open the Instagram chat, paste and send.</li>
+      <li><b>Get the scope and cost.</b> Every board is different, so there's no flat price list. You'll know what's being done and what it costs before any work starts.</li>
+      <li><b>Drop it off or ship it in.</b> Details are sorted in the same conversation.</li>
+    </ol>
+  </div>
+
+  <form class="req" id="req" novalidate>
+    <div class="field">
+      <label for="f-service">Service</label>
+      <select id="f-service" name="service">
+        <option>Not sure yet</option>
+        <option>Re-cable</option>
+        <option>Cleanup & troubleshooting</option>
+        <option>Full rebuild</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="f-issue">What's happening with the board?</label>
+      <textarea id="f-issue" name="issue" rows="3" required aria-describedby="f-issue-err" placeholder="e.g. Hum when the delay is on, and the tuner cuts out sometimes."></textarea>
+      <p class="err" id="f-issue-err" hidden>Describe what's happening so the message is useful.</p>
+    </div>
+
+    <fieldset class="field">
+      <legend>Getting the board to Wolfboards</legend>
+      <div class="seg">
+        <input type="radio" name="handoff" id="h-drop" value="Drop off"><label for="h-drop">Drop off</label>
+        <input type="radio" name="handoff" id="h-ship" value="Ship it in"><label for="h-ship">Ship it in</label>
+        <input type="radio" name="handoff" id="h-unsure" value="Not sure yet" checked><label for="h-unsure">Not sure yet</label>
+      </div>
+    </fieldset>
+
+
+    <details class="more">
+      <summary>Add your pedal list or a deadline <span class="opt">optional</span></summary>
+    <div class="field">
+      <label for="f-pedals">Pedals on the board <span class="opt">optional</span></label>
+      <textarea id="f-pedals" name="pedals" rows="2" placeholder="Tuner, compressor, drive, delay, reverb, power supply…"></textarea>
+    </div>
+    <div class="field">
+      <label for="f-date">Deadline <span class="opt">optional</span></label>
+      <input type="text" id="f-date" name="date" placeholder="e.g. Gig on Dec 20" autocomplete="off">
+    </div>
+    </details>
+
+    <div class="preview">
+      <p class="preview-label" id="pv-label">Your message</p>
+      <pre id="preview" aria-labelledby="pv-label" aria-live="off"></pre>
+    </div>
+
+    <button class="btn" type="submit">Copy my booking message</button>
+    <p class="status" id="status" role="status"></p>
+    <a class="btn go" id="go" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener" hidden>Open the Instagram chat ↗</a>
+    <div class="fallback" id="fallback" hidden>
+      <label for="f-msg">Your message, ready to copy</label>
+      <textarea id="f-msg" rows="7" readonly></textarea>
+      <a class="btn btn-line" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener">Open Instagram DM</a>
+    </div>
+  </form>
+</section>
+
+<!-- PATCH CABLES: separate from board services, with its own order message -->
+<section class="cables" id="cables" aria-labelledby="cables-h">
+  <div class="wrap cables-in">
+    <div class="cables-intro">
+      <h2 data-reveal="wipe" id="cables-h">Patch cables, made to length</h2>
+      <p class="muted">Leave crackling, too-long cables behind. Build your list: the length, the plug on each end, and how many. Every cable is built with Mogami cable.</p>
+      <ul class="spec-list" data-reveal="stagger">
+        <li><b>Cable</b> Mogami</li>
+        <li><b>Plugs</b> Right-angle low profile, right-angle or straight</li>
+        <li><b>Lengths</b> 3 in to 24 in, or any length you need</li>
+      </ul>
+    </div>
+
+    <form class="cable-form" id="cable-form" novalidate>
+      <ol class="cable-list" id="cable-list">
+          <li class="cable-row">
+            <label class="mini"><span>Length</span>
+              <select name="len">
+                <option>3 in</option><option>4 in</option><option selected>6 in</option><option>8 in</option><option>10 in</option><option>12 in</option><option>18 in</option><option>24 in</option><option>Other (in notes)</option>
+              </select></label>
+            <label class="mini"><span>Plug A</span>
+              <select name="a"><option value="Right-angle, low profile">Low profile</option><option>Right-angle</option><option>Straight</option></select></label>
+            <label class="mini"><span>Plug B</span>
+              <select name="b"><option value="Right-angle, low profile">Low profile</option><option>Right-angle</option><option>Straight</option></select></label>
+            <div class="mini qty"><span id="qty-l">Qty</span>
+              <div class="stepper">
+                <button type="button" class="step" data-step="-1" aria-label="One fewer">−</button>
+                <input type="number" name="qty" min="1" max="50" value="1" inputmode="numeric" aria-label="Quantity">
+                <button type="button" class="step" data-step="1" aria-label="One more">+</button>
+              </div>
+            </div>
+            <div class="viz" aria-hidden="true"><span class="plug" data-kind="lp"></span><span class="cord"></span><span class="plug b" data-kind="lp"></span><span class="len-tag">6 in</span></div>
+            <div class="row-actions">
+              <button type="button" class="dup">Duplicate</button>
+              <button type="button" class="remove">Remove</button>
+            </div>
+          </li>
+      </ol>
+      <button type="button" class="btn btn-line btn-sm" id="add-cable">Add another cable</button>
+      <div class="field">
+        <label for="c-notes">Notes <span class="opt">optional</span></label>
+        <textarea id="c-notes" name="notes" rows="2" placeholder="e.g. Not sure on lengths, can you measure my board?"></textarea>
+      </div>
+      <div class="preview">
+        <p class="preview-label" id="c-pv-label">Your cable order</p>
+        <pre id="c-preview" aria-labelledby="c-pv-label"></pre>
+      </div>
+      <button class="btn" type="submit" id="cable-send">Copy my cable order</button>
+      <p class="status" id="c-status" role="status"></p>
+      <a class="btn go" id="c-go" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener" hidden>Open the Instagram chat ↗</a>
+      <div class="fallback" id="c-fallback" hidden>
+        <label for="c-msg">Your cable order, ready to copy</label>
+        <textarea id="c-msg" rows="6" readonly></textarea>
+        <a class="btn btn-line" href="https://ig.me/m/wolfboards" target="_blank" rel="noopener">Open Instagram DM</a>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<div class="dock" id="dock" hidden>
+  <p class="dock-sel"><span class="led" aria-hidden="true"></span><span class="sr-only">Selected service: </span><span id="dock-service">Not sure yet</span></p>
+  <a class="btn btn-sm" href="#request">Book your board in</a>
+</div>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <img class="mark" src="img/mark.png" alt="Wolfboards logo: a howling wolf, Lead the Pack" width="120" height="120" loading="lazy" decoding="async">
+    <div class="sign">
+      <p class="word">wolfboards</p>
+      <p class="tag">Lead the pack.</p>
+    </div>
+    <ul class="foot-links">
+      <li><a href="#explore" data-pick="mess">Re-cable</a></li>
+      <li><a href="#explore" data-pick="noise">Cleanup & troubleshooting</a></li>
+      <li><a href="#explore" data-pick="layout">Full rebuild</a></li>
+      <li><a href="#cables">Patch cables</a></li>
+      <li><a href="https://www.instagram.com/wolfboards/" target="_blank" rel="noopener">@wolfboards on Instagram</a></li>
+    </ul>
+    <p class="fine">Marvin Garcia · Drop off or ship in · Requests by Instagram DM</p>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
